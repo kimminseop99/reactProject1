@@ -8,14 +8,16 @@ function Detail(){
       `https://yts.mx/api/v2/movie_details.json?movie_id=${id}`
     );
     const json = await response.json();
-    console.log(json);
+ 
 };
     useEffect(() =>
     {
       getMovie();
      }, []);
 
-    return (<h1>Detail</h1>);
+    return (<div>
+
+    </div>);
 
 }
 
